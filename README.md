@@ -42,3 +42,24 @@ Analyzes a numeric PIN based on:
 - Low entropy combinations
 
 **Output Example:**
+---
+
+### 2️⃣ Secure PIN Hashing Simulation
+Demonstrates how PINs should be securely stored:
+- Converts PIN → hashed value
+- Uses secure hashing algorithms (`SHA-256 / bcrypt`)
+- Shows why plain PINs should never be stored
+- Optional salting demonstration
+
+This reflects **real backend authentication systems**.
+
+---
+
+### 3️⃣ Numeric Brute-Force Attack Simulation
+Simulates a brute-force attack using:
+- Digits: `0–9`
+- Configurable PIN length (4 or 6 digits)
+- Attempt counter
+- Time measurement
+
+**Output Example:**
