@@ -63,3 +63,47 @@ Simulates a brute-force attack using:
 - Time measurement
 
 **Output Example:**
+This clearly demonstrates why **short PINs are extremely vulnerable**.
+
+---
+
+### 4️⃣ Rate Limiting & Lockout (Defense Mode)
+Simulates defensive security mechanisms:
+- Maximum allowed attempts
+- Temporary lock after failed attempts
+- Increasing delay between attempts
+
+This module highlights **how real systems protect against attacks**.
+
+---
+
+### 5️⃣ Attack vs Defense Comparison
+Side-by-side security evaluation:
+
+| Scenario | Result |
+|--------|--------|
+| 4-digit PIN, no lock | Cracked quickly |
+| 6-digit PIN, rate limiting | Attack slowed |
+| Lockout after 3 attempts | Attack blocked |
+
+---
+
+## 🧪 Real-World Use Cases (Educational)
+- ATM PIN security
+- Mobile phone locks
+- Digital door locks
+- IoT device authentication systems
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- Python
+- hashlib
+- itertools
+- time
+- Command Line Interface (CLI)
+
+---
+
+## 📁 Project Structure
