@@ -114,3 +114,5 @@ Side-by-side security evaluation:
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/pin-lock-cracker-assistant.git
+cd pin-lock-cracker-assistant
+python main.py
